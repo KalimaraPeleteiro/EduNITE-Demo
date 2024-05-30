@@ -1,0 +1,43 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex-content {
+    display: flex;
+}
+
+a {
+    cursor: pointer;
+}
+
+/* Cabeçalho */
+#header-section {
+    background-color: white;
+    height: 5%;
+    flex: auto;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: inset 0 0 10px 5px #F2F2F2; 
+}
+
+.header-option {
+    font-family: "Inter";
+    font-size: 24;
+}
+
+.header-option:hover{
+    border-bottom: 0.3rem solid;
+    border-color: #0138B7;
+}
+
+#header-profile-picture {
+    margin-right: 0.25rem;
+}
+
+
+
+body {
+    background-color: #F2F2F2;
+}
